@@ -1,15 +1,13 @@
-package my-program;
+package mypackage;
 
 public interface Animal {
 	
-	public void walk() {
-		System.out.println("I'm walking with four legs");
-	}
+	public void walk();
 	public abstract void noise();
 	public abstract void eat();
 
 }
-
+/*
 public class Cat implements Animal {
 
 	public void noise() {
@@ -31,3 +29,4 @@ public class Dog implements Animal {
 		System.out.println("I'm a dog I like to eat bones");
 	}
 }
+*/
